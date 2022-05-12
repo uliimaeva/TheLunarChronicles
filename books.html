@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Лунные Хроники | Книги</title>
-    <link rel="stylesheet" href="books.css">
+    <title>Лунные Хроники | Главная</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,18 +17,20 @@
       <nav>
         <div class="logo">
           <a href="index.html">
-            <img src=".img/UMM-Logo-Small.svg"" alt="logo">
+            <img src=".img/UMM-Logo-Small.svg" alt="logo">
           </a>
         </div>
 
         <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li ><a href="index.html">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="Pers.html">Главные Персонажи</a></li>
             <li id="active"><a href="books.html">Книги</a></li>
           </ul>
         </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
         <i class="fas fa-bars" onclick="showMenu()"></i>
       </nav>
     </header>
